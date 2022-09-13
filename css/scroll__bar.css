@@ -1,0 +1,25 @@
+.scroll__bar-wrapper{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   transform: rotate(-4.93deg);
+
+   margin: 120px 0 150px;
+   padding: 15px 0;
+
+   background-color: var(--black);
+
+   overflow-x: auto;
+   scroll-snap-type: x mandatory;
+}
+
+.scroll__bar-item{
+   display: flex;
+   align-items: center;
+   gap: 9px;
+   scroll-snap-align: start;
+}
+.scroll__bar-color{
+   text-decoration: none;
+   color: var(--white);
+}

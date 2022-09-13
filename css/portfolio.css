@@ -1,0 +1,50 @@
+.portfolio__wrapper {
+  padding: 60px 0;
+  width: 1060px;
+}
+
+.portfolio__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 95px;
+  padding-top: 60px;
+}
+
+.portfolio__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 44px;
+}
+
+.portfolio__information{
+  width: 556px;
+}
+
+.portfolio__direction {
+  display: inline-block;
+  padding: 4px 12px;
+  margin-bottom: 35px;
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.portfolio__dop-information{
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+}
+
+.portfolio__next-more {
+  text-decoration: none;
+  
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+
+  color: var(--black);
+}

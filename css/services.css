@@ -1,0 +1,23 @@
+.services__wrapper{
+   padding: 60px 0;
+}
+
+.services__card{
+   display: grid;
+   justify-content: center;
+
+   grid-template-columns: repeat(2 , 510px);
+   grid-gap: 40px;
+   
+   margin-top: 60px;
+}
+
+.services__card-item{
+   display: flex;
+   flex-direction: column;
+   
+   gap: 28px;
+   padding: 32px 49px 32px 34px;
+
+   border: 2px solid var(--black);
+}

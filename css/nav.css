@@ -1,0 +1,51 @@
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 24px;
+}
+
+.nav__information {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__information-dop{
+   display: flex;
+   gap: 12px;
+}
+
+.nav__services {
+  display: grid;
+  align-items: center;
+
+  margin: 35px 0 40px;
+  grid-template-columns: 85px 20px 170px 20px 114px;
+  grid-column-gap: 16px;
+}
+
+.nav__btn {
+  display: flex;
+  text-decoration: none;
+}
+
+.btn-bg {
+  background-color: var(--black);
+}
+
+
+.nav__btn-link {
+   padding: 13px 33px;
+   border: 1px solid var(--black);
+}
+
+.nav__btn-link {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--black);
+}
+
+.btn-text {
+  color: var(--white);
+}

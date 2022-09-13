@@ -1,0 +1,30 @@
+.customer__wrapper{
+   padding: 60px 0;
+}
+
+.customer__card{
+   display: grid;
+   justify-content: center;
+
+   grid-template-columns: repeat(4 , 241px);
+   grid-gap: 32px;
+
+   margin-top: 62px;
+}
+
+.customer__card-svg{
+   padding: 42px 84px;
+   border: 1px solid #131416;
+}
+
+.rpublika{
+   padding: 43px 60px;
+}
+
+.veroxfloor{
+   padding: 43px 69px;
+}
+
+.invoice2go{
+   padding: 41px 72px;
+}
